@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		178A3CA426A92A96006D6629 /* brandsToAvoidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A3CA326A92A96006D6629 /* brandsToAvoidViewController.swift */; };
+		17957C1D26A9C6C1001E069E /* ArmdeangelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17957C1C26A9C6C1001E069E /* ArmdeangelsViewController.swift */; };
+		17957C1F26A9CACD001E069E /* theRCollectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17957C1E26A9CACD001E069E /* theRCollectiveViewController.swift */; };
+		17957C2126A9CC17001E069E /* reCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17957C2026A9CC17001E069E /* reCreateViewController.swift */; };
+		17957C2326A9CD4D001E069E /* DorsuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17957C2226A9CD4D001E069E /* DorsuViewController.swift */; };
+		17957C2526A9D247001E069E /* NisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17957C2426A9D247001E069E /* NisaViewController.swift */; };
 		587C598F26A5C7D10011A978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587C598E26A5C7D10011A978 /* AppDelegate.swift */; };
 		587C599126A5C7D10011A978 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587C599026A5C7D10011A978 /* SceneDelegate.swift */; };
 		587C599326A5C7D10011A978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587C599226A5C7D10011A978 /* ViewController.swift */; };
@@ -22,6 +27,11 @@
 
 /* Begin PBXFileReference section */
 		178A3CA326A92A96006D6629 /* brandsToAvoidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brandsToAvoidViewController.swift; sourceTree = "<group>"; };
+		17957C1C26A9C6C1001E069E /* ArmdeangelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmdeangelsViewController.swift; sourceTree = "<group>"; };
+		17957C1E26A9CACD001E069E /* theRCollectiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theRCollectiveViewController.swift; sourceTree = "<group>"; };
+		17957C2026A9CC17001E069E /* reCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reCreateViewController.swift; sourceTree = "<group>"; };
+		17957C2226A9CD4D001E069E /* DorsuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DorsuViewController.swift; sourceTree = "<group>"; };
+		17957C2426A9D247001E069E /* NisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NisaViewController.swift; sourceTree = "<group>"; };
 		587C598B26A5C7D10011A978 /* KWK Final Project (mobileAppDev).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK Final Project (mobileAppDev).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		587C598E26A5C7D10011A978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		587C599026A5C7D10011A978 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +80,11 @@
 				587C599026A5C7D10011A978 /* SceneDelegate.swift */,
 				587C599226A5C7D10011A978 /* ViewController.swift */,
 				587C599426A5C7D10011A978 /* Main.storyboard */,
+				17957C2426A9D247001E069E /* NisaViewController.swift */,
+				17957C2226A9CD4D001E069E /* DorsuViewController.swift */,
+				17957C2026A9CC17001E069E /* reCreateViewController.swift */,
+				17957C1E26A9CACD001E069E /* theRCollectiveViewController.swift */,
+				17957C1C26A9C6C1001E069E /* ArmdeangelsViewController.swift */,
 				178A3CA326A92A96006D6629 /* brandsToAvoidViewController.swift */,
 				58A9EFD126A93A8A00E0BF71 /* betterBrandsViewController.swift */,
 				58FC8B3026A905AA006C14B9 /* CHNGEViewController.swift */,
@@ -154,11 +169,16 @@
 			files = (
 				58A9EFD226A93A8A00E0BF71 /* betterBrandsViewController.swift in Sources */,
 				58FC8B3126A905AA006C14B9 /* CHNGEViewController.swift in Sources */,
+				17957C1D26A9C6C1001E069E /* ArmdeangelsViewController.swift in Sources */,
 				587C599326A5C7D10011A978 /* ViewController.swift in Sources */,
 				58A9EFD426A93ABB00E0BF71 /* researchViewController.swift in Sources */,
 				58FC8B3326A90822006C14B9 /* NSAttributedStringExtenstion.swift in Sources */,
 				178A3CA426A92A96006D6629 /* brandsToAvoidViewController.swift in Sources */,
+				17957C1F26A9CACD001E069E /* theRCollectiveViewController.swift in Sources */,
+				17957C2526A9D247001E069E /* NisaViewController.swift in Sources */,
+				17957C2326A9CD4D001E069E /* DorsuViewController.swift in Sources */,
 				587C598F26A5C7D10011A978 /* AppDelegate.swift in Sources */,
+				17957C2126A9CC17001E069E /* reCreateViewController.swift in Sources */,
 				587C599126A5C7D10011A978 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
