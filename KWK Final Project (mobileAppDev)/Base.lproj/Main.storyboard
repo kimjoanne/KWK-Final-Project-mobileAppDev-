@@ -208,7 +208,7 @@
         <!--View Controller-->
         <scene sceneID="wCr-88-DXC">
             <objects>
-                <viewController id="vks-7O-1rg" sceneMemberID="viewController">
+                <viewController id="vks-7O-1rg" customClass="CHNGEViewController" customModule="KWK_Final_Project__mobileAppDev_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Byb-gL-oY1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,14 +225,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
                                 <connections>
-                                    <segue destination="uDd-FB-yZh" kind="show" id="T5t-vW-ph7"/>
+                                    <segue destination="uDd-FB-yZh" kind="showDetail" id="RAB-IU-uUP"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="click here to check out CHNGE" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rlf-ks-1fC">
+                                <rect key="frame" x="87" y="290" width="240" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="systemIndigoColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZmV-Ua-HSB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="c6o-2Z-WMx"/>
+                    <connections>
+                        <outlet property="textView" destination="Rlf-ks-1fC" id="UsU-ZC-bRQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8s-x6-JJP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -273,7 +284,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="T5t-vW-ph7"/>
+        <segue reference="RAB-IU-uUP"/>
         <segue reference="MwD-1v-9iO"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -282,6 +293,9 @@
         <image name="square.grid.3x3.fill" catalog="system" width="128" height="112"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
