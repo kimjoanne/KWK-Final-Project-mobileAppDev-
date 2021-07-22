@@ -41,7 +41,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.92127799990000003" green="0.95149034259999998" blue="0.99550753830000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -94,9 +94,18 @@
                                     <segue destination="C6G-iw-kvV" kind="show" id="KoC-1I-4M0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXZ-l8-ITv">
+                                <rect key="frame" x="116" y="633" width="185" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="about the developers"/>
+                                <connections>
+                                    <segue destination="7PC-Qg-phV" kind="show" id="7m4-XL-uLC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3XZ-zu-Prl"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="2AG-5T-l9j"/>
                 </viewController>
@@ -151,14 +160,13 @@ Zaful</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click here to search a directory which rates brands' sustainability." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J45-JU-5ZM">
                                 <rect key="frame" x="54" y="645" width="307" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rez-3n-fm3"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="1cg-G8-T0c"/>
                     <connections>
@@ -169,10 +177,10 @@ Zaful</string>
             </objects>
             <point key="canvasLocation" x="2042.0289855072465" y="87.723214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Better Brands View Controller-->
         <scene sceneID="YBS-cJ-b6W">
             <objects>
-                <viewController id="uDd-FB-yZh" sceneMemberID="viewController">
+                <viewController id="uDd-FB-yZh" customClass="betterBrandsViewController" customModule="KWK_Final_Project__mobileAppDev_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="od1-6I-dEU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -235,9 +243,16 @@ Zaful</string>
                                 <rect key="frame" x="154" y="45" width="106" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click on the following brand names to see why they're better alternatives" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="reV-If-ER6">
+                                <rect key="frame" x="89" y="619" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yNd-vN-WCl"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xtf-sl-ixf"/>
                 </viewController>
@@ -271,14 +286,14 @@ Zaful</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="click here to check out CHNGE" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rlf-ks-1fC">
                                 <rect key="frame" x="87" y="290" width="240" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" systemColor="systemIndigoColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZmV-Ua-HSB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="c6o-2Z-WMx"/>
                     <connections>
@@ -289,10 +304,10 @@ Zaful</string>
             </objects>
             <point key="canvasLocation" x="3057.971014492754" y="857.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--Research View Controller-->
         <scene sceneID="t9d-ru-WTb">
             <objects>
-                <viewController id="C6G-iw-kvV" sceneMemberID="viewController">
+                <viewController id="C6G-iw-kvV" customClass="researchViewController" customModule="KWK_Final_Project__mobileAppDev_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y6O-T8-vRK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -315,7 +330,6 @@ Zaful</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="tidbit 1" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FFQ-Vu-Qdj">
                                 <rect key="frame" x="87" y="267" width="240" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -323,7 +337,6 @@ Zaful</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="tidbit 2" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gEL-oW-zOp">
                                 <rect key="frame" x="87" y="357" width="240" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -331,7 +344,6 @@ Zaful</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="tidbit 3" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0eC-Eb-nHU">
                                 <rect key="frame" x="97" y="491" width="240" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -339,7 +351,6 @@ Zaful</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="tidbit 4" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GDC-8A-exB">
                                 <rect key="frame" x="93" y="631" width="240" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -350,7 +361,7 @@ Zaful</string>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jba-M6-5tg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="0gf-0Z-TNp"/>
                 </viewController>
@@ -358,10 +369,39 @@ Zaful</string>
             </objects>
             <point key="canvasLocation" x="4107.2463768115949" y="87.723214285714278"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="M1R-8V-hAd">
+            <objects>
+                <viewController id="7PC-Qg-phV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mgy-Ug-0Eq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="5gk-OO-ASQ">
+                                <rect key="frame" x="154" y="78" width="106" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About the Developers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64W-r5-BLF">
+                                <rect key="frame" x="68" y="180" width="279" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="o33-b3-R2o"/>
+                        <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="g7O-VT-TUH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p4t-tr-q77" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5106" y="88"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Pkt-2N-r0W"/>
-        <segue reference="SPj-Iw-C1i"/>
+        <segue reference="RAB-IU-uUP"/>
+        <segue reference="usw-lw-2sC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="106"/>
@@ -370,12 +410,6 @@ Zaful</string>
         <image name="watr" width="1600" height="1600"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

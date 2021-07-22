@@ -14,6 +14,8 @@
 		587C599626A5C7D10011A978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587C599426A5C7D10011A978 /* Main.storyboard */; };
 		587C599826A5C7D40011A978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587C599726A5C7D40011A978 /* Assets.xcassets */; };
 		587C599B26A5C7D40011A978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587C599926A5C7D40011A978 /* LaunchScreen.storyboard */; };
+		58A9EFD226A93A8A00E0BF71 /* betterBrandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A9EFD126A93A8A00E0BF71 /* betterBrandsViewController.swift */; };
+		58A9EFD426A93ABB00E0BF71 /* researchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A9EFD326A93ABB00E0BF71 /* researchViewController.swift */; };
 		58FC8B3126A905AA006C14B9 /* CHNGEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FC8B3026A905AA006C14B9 /* CHNGEViewController.swift */; };
 		58FC8B3326A90822006C14B9 /* NSAttributedStringExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FC8B3226A90822006C14B9 /* NSAttributedStringExtenstion.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +30,8 @@
 		587C599726A5C7D40011A978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		587C599A26A5C7D40011A978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		587C599C26A5C7D40011A978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A9EFD126A93A8A00E0BF71 /* betterBrandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betterBrandsViewController.swift; sourceTree = "<group>"; };
+		58A9EFD326A93ABB00E0BF71 /* researchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = researchViewController.swift; sourceTree = "<group>"; };
 		58FC8B3026A905AA006C14B9 /* CHNGEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHNGEViewController.swift; sourceTree = "<group>"; };
 		58FC8B3226A90822006C14B9 /* NSAttributedStringExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtenstion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +71,9 @@
 				587C599226A5C7D10011A978 /* ViewController.swift */,
 				587C599426A5C7D10011A978 /* Main.storyboard */,
 				178A3CA326A92A96006D6629 /* brandsToAvoidViewController.swift */,
+				58A9EFD126A93A8A00E0BF71 /* betterBrandsViewController.swift */,
 				58FC8B3026A905AA006C14B9 /* CHNGEViewController.swift */,
+				58A9EFD326A93ABB00E0BF71 /* researchViewController.swift */,
 				587C599726A5C7D40011A978 /* Assets.xcassets */,
 				587C599926A5C7D40011A978 /* LaunchScreen.storyboard */,
 				587C599C26A5C7D40011A978 /* Info.plist */,
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A9EFD226A93A8A00E0BF71 /* betterBrandsViewController.swift in Sources */,
 				58FC8B3126A905AA006C14B9 /* CHNGEViewController.swift in Sources */,
 				587C599326A5C7D10011A978 /* ViewController.swift in Sources */,
+				58A9EFD426A93ABB00E0BF71 /* researchViewController.swift in Sources */,
 				58FC8B3326A90822006C14B9 /* NSAttributedStringExtenstion.swift in Sources */,
 				178A3CA426A92A96006D6629 /* brandsToAvoidViewController.swift in Sources */,
 				587C598F26A5C7D10011A978 /* AppDelegate.swift in Sources */,
