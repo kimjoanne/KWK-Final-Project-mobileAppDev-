@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AdR-kt-XWf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -24,8 +24,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="RNw-7H-fB5">
+                                <rect key="frame" x="88" y="274" width="239" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edh-9B-tVd">
-                                <rect key="frame" x="345" y="58" width="49" height="46"/>
+                                <rect key="frame" x="345" y="100" width="49" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal">
@@ -35,36 +39,33 @@
                                     <segue destination="40w-Fv-xDl" kind="show" id="Xf7-ca-1Fd"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="RNw-7H-fB5">
-                                <rect key="frame" x="88" y="274" width="239" height="216"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.92127799990000003" green="0.95149034259999998" blue="0.99550753830000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Fpy-UF-2pn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="88.392857142857139"/>
+            <point key="canvasLocation" x="1042.0289855072465" y="88.392857142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Amw-Ia-R9s">
             <objects>
                 <viewController id="40w-Fv-xDl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QR5-i2-Eg5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQZ-Hv-EXe">
-                                <rect key="frame" x="171" y="238" width="73" height="36"/>
+                                <rect key="frame" x="171" y="346" width="73" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Va5-lC-gJf">
-                                <rect key="frame" x="140" y="361" width="135" height="36"/>
+                                <rect key="frame" x="140" y="467" width="135" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="brands to avoid"/>
@@ -73,7 +74,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ky-K4-eF9">
-                                <rect key="frame" x="148" y="454" width="119" height="36"/>
+                                <rect key="frame" x="148" y="529" width="119" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="better brands"/>
@@ -81,12 +82,8 @@
                                     <segue destination="uDd-FB-yZh" kind="show" id="Pkt-2N-r0W"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="myt-rw-eqy">
-                                <rect key="frame" x="154" y="49" width="106" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMa-kH-gKq">
-                                <rect key="frame" x="158" y="531" width="98" height="66"/>
+                                <rect key="frame" x="158" y="573" width="98" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="research"/>
@@ -95,7 +92,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXZ-l8-ITv">
-                                <rect key="frame" x="116" y="633" width="185" height="36"/>
+                                <rect key="frame" x="115" y="667" width="185" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="about the developers"/>
@@ -103,6 +100,10 @@
                                     <segue destination="7PC-Qg-phV" kind="show" id="7m4-XL-uLC"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="myt-rw-eqy">
+                                <rect key="frame" x="154" y="103" width="106" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3XZ-zu-Prl"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -111,14 +112,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bMu-MQ-blG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1092.753623188406" y="87.723214285714278"/>
+            <point key="canvasLocation" x="2002.8985507246377" y="87.723214285714278"/>
         </scene>
         <!--Brands To Avoid View Controller-->
         <scene sceneID="3tE-WJ-agg">
             <objects>
                 <viewController id="pAN-TQ-5eU" customClass="brandsToAvoidViewController" customModule="KWK_Final_Project__mobileAppDev_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MIf-fx-H6p">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQB-g9-Dw1">
@@ -153,10 +154,6 @@ Zaful</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="Saa-Kj-7xc">
-                                <rect key="frame" x="154" y="57" width="106" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click here to search a directory which rates brands' sustainability." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J45-JU-5ZM">
                                 <rect key="frame" x="54" y="645" width="307" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -164,6 +161,10 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="Saa-Kj-7xc">
+                                <rect key="frame" x="154" y="101" width="106" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rez-3n-fm3"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -175,14 +176,14 @@ Zaful</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8gz-o6-lt3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2042.0289855072465" y="87.723214285714278"/>
+            <point key="canvasLocation" x="2952.1739130434785" y="87.723214285714278"/>
         </scene>
         <!--Better Brands View Controller-->
         <scene sceneID="YBS-cJ-b6W">
             <objects>
                 <viewController id="uDd-FB-yZh" customClass="betterBrandsViewController" customModule="KWK_Final_Project__mobileAppDev_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="od1-6I-dEU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljX-fX-3Uc">
@@ -239,10 +240,6 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Nisa"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="5Zy-wo-elB">
-                                <rect key="frame" x="154" y="45" width="106" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click on the following brand names to see why they're better alternatives" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="reV-If-ER6">
                                 <rect key="frame" x="89" y="619" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -250,6 +247,10 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="5Zy-wo-elB">
+                                <rect key="frame" x="154" y="93" width="106" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yNd-vN-WCl"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -258,14 +259,14 @@ Zaful</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abf-0A-5nf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3058" y="88"/>
+            <point key="canvasLocation" x="3968.115942028986" y="87.723214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wCr-88-DXC">
             <objects>
                 <viewController id="vks-7O-1rg" customClass="CHNGEViewController" customModule="KWK_Final_Project__mobileAppDev_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Byb-gL-oY1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CHNGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPc-lh-mAl">
@@ -309,7 +310,7 @@ Zaful</string>
             <objects>
                 <viewController id="C6G-iw-kvV" customClass="researchViewController" customModule="KWK_Final_Project__mobileAppDev_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y6O-T8-vRK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9w-YT-vae">
@@ -367,14 +368,14 @@ Zaful</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bDc-f0-MBR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4107.2463768115949" y="87.723214285714278"/>
+            <point key="canvasLocation" x="5017.3913043478269" y="87.723214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="M1R-8V-hAd">
             <objects>
                 <viewController id="7PC-Qg-phV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mgy-Ug-0Eq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="5gk-OO-ASQ">
@@ -388,6 +389,18 @@ Zaful</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="toX-JK-1of">
+                                <rect key="frame" x="87" y="237" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DQ5-uT-RjO">
+                                <rect key="frame" x="87" y="577" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yr2-96-Qmh">
+                                <rect key="frame" x="87" y="409" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="o33-b3-R2o"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -396,12 +409,30 @@ Zaful</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p4t-tr-q77" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5106" y="88"/>
+            <point key="canvasLocation" x="6015.9420289855079" y="87.723214285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="frJ-Hl-V6U">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AdR-kt-XWf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5rd-r5-zKf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7Ll-Ua-t56"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CPx-W7-oae" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="88.392857142857139"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RAB-IU-uUP"/>
-        <segue reference="usw-lw-2sC"/>
+        <segue reference="Pkt-2N-r0W"/>
+        <segue reference="Xf7-ca-1Fd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="106"/>
