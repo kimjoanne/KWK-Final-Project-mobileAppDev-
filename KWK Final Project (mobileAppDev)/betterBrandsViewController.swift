@@ -8,13 +8,26 @@
 import UIKit
 
 class betterBrandsViewController: UIViewController {
-
+    
+    @IBOutlet weak var searchBetterBrands: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateTextView()
 
         // Do any additional setup after loading the view.
     }
-    
+    func updateTextView () {
+        let path = "https://goodonyou.eco/sustainable-clothing-brands/"
+        let text = searchBetterBrands.text ?? ""
+        let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "here")
+        let font = searchBetterBrands.font
+        let textColor  = searchBetterBrands.textColor
+        searchBetterBrands.attributedText = attributedString
+        searchBetterBrands.font = font
+        searchBetterBrands.textColor = textColor
+        
+    }
 
     /*
     // MARK: - Navigation
