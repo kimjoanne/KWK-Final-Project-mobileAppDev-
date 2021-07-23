@@ -12,9 +12,16 @@ class reCreateViewController: UIViewController {
     
     @IBOutlet weak var reCreate: UITextView!
     
+    @IBOutlet weak var reCreateQF: UITextView!
+    
+    @IBAction func reCreateQFButton(_ sender: UIButton) {
+        reCreateQF.isHidden = false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateTextView()
+        reCreateQF.isHidden = true
         
         func updateTextView() {
             let path = "https://recreateclothing.co.nz/"

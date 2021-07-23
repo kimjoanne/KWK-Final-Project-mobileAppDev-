@@ -11,10 +11,16 @@ class DorsuViewController: UIViewController {
     
     @IBOutlet weak var dorsuLink: UITextView!
     
-
+    @IBOutlet weak var dorsuQF: UITextView!
+    
+    @IBAction func dorsuQFButton(_ sender: UIButton) {
+        dorsuQF.isHidden = false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateTextView()
+        dorsuQF.isHidden = true
         
         func updateTextView() {
             let path = "https://dorsu.org/"

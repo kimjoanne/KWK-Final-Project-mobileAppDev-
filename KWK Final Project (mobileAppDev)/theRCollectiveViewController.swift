@@ -11,10 +11,16 @@ class theRCollectiveViewController: UIViewController {
     
     @IBOutlet weak var theR: UITextView!
     
-
+    @IBOutlet weak var theRCollectiveQF: UITextView!
+    
+    @IBAction func theRCollectiveButton(_ sender: UIButton) {
+        theRCollectiveQF.isHidden = false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateTextView()
+        theRCollectiveQF.isHidden = true
         
         func updateTextView() {
             let path = "https://thercollective.com/"

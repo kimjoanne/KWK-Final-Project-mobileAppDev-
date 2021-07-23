@@ -14,9 +14,16 @@ class CHNGEViewController: UIViewController {
     
     @IBOutlet weak var textView: UITextView!
     
+    @IBOutlet weak var chngeQF: UITextView!
+    
+    @IBAction func chngeQFButton(_ sender: UIButton) {
+        chngeQF.isHidden = false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateTextView()
+        chngeQF.isHidden = true
 
         // Do any additional setup after loading the view.
     }

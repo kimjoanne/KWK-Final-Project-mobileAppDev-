@@ -11,11 +11,16 @@ class ArmdeangelisViewController: UIViewController {
     
     @IBOutlet weak var armLink: UITextView!
     
-
+    @IBOutlet weak var armedangelsQF: UITextView!
+    
+    @IBAction func armedangelsQFButton(_ sender: UIButton) {
+        armedangelsQF.isHidden = false
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         updateTextView()
+        armedangelsQF.isHidden = true
 
         // Do any additional setup after loading the view.
     }

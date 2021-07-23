@@ -417,13 +417,6 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ool-Hq-hWS">
-                                <rect key="frame" x="151" y="348" width="112" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="click here to check out CHNGE" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rlf-ks-1fC">
                                 <rect key="frame" x="89" y="760" width="236" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -432,6 +425,15 @@ Zaful</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVN-Np-NRd">
+                                <rect key="frame" x="142" y="348" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="QUICK FACTS!"/>
+                                <connections>
+                                    <action selector="chngeQFButton:" destination="vks-7O-1rg" eventType="touchUpInside" id="jht-H5-1eO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZmV-Ua-HSB"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -440,6 +442,7 @@ Zaful</string>
                         <barButtonItem key="backBarButtonItem" title="Better Brands" id="DaZ-oa-nBa"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="chngeQF" destination="UYy-9L-Tke" id="QE1-qX-P4a"/>
                         <outlet property="textView" destination="Rlf-ks-1fC" id="UsU-ZC-bRQ"/>
                     </connections>
                 </viewController>
@@ -499,13 +502,6 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssG-II-JP4">
-                                <rect key="frame" x="151" y="348" width="112" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Y3v-ZE-WpZ">
                                 <rect key="frame" x="54" y="377" width="307" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -522,6 +518,15 @@ Zaful</string>
                                 <rect key="frame" x="20" y="633" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgC-Sx-asS">
+                                <rect key="frame" x="142" y="348" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="QUICK FACTS!"/>
+                                <connections>
+                                    <action selector="armedangelsQFButton:" destination="aza-Dd-xTF" eventType="touchUpInside" id="kjy-Ii-UGc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uXb-TW-ykm"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -529,6 +534,7 @@ Zaful</string>
                     <navigationItem key="navigationItem" title="Armedangels" id="VIB-gf-UVL"/>
                     <connections>
                         <outlet property="armLink" destination="g06-LZ-JgE" id="NB6-zH-w05"/>
+                        <outlet property="armedangelsQF" destination="Y3v-ZE-WpZ" id="VEJ-rk-dMZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OUg-oz-tuC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -591,13 +597,6 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXr-vX-JyN">
-                                <rect key="frame" x="151" y="348" width="112" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xvn-lb-6ZB">
                                 <rect key="frame" x="56" y="377" width="305" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -610,6 +609,15 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNq-dR-PZR">
+                                <rect key="frame" x="139" y="348" width="136" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="QUICK FACTS!"/>
+                                <connections>
+                                    <action selector="theRCollectiveButton:" destination="zXs-hb-SfK" eventType="touchUpInside" id="wRH-kJ-kjj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jDb-Wa-Dc6"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -617,6 +625,7 @@ Zaful</string>
                     <navigationItem key="navigationItem" title="The R Collective" id="had-hi-Xdb"/>
                     <connections>
                         <outlet property="theR" destination="bbT-CW-Lls" id="wSR-Ay-rPw"/>
+                        <outlet property="theRCollectiveQF" destination="xvn-lb-6ZB" id="1ob-tu-NM0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LDn-p5-cGs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -680,13 +689,6 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqN-5w-Ncl">
-                                <rect key="frame" x="151" y="348" width="112" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WFM-4l-Xba">
                                 <rect key="frame" x="54" y="377" width="305" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -699,6 +701,15 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGO-nP-ClW">
+                                <rect key="frame" x="139" y="348" width="136" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="QUICK FACTS!"/>
+                                <connections>
+                                    <action selector="reCreateQFButton:" destination="LYI-Rn-p2U" eventType="touchUpInside" id="JYD-LN-eO1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IBQ-Bw-sqe"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -706,6 +717,7 @@ Zaful</string>
                     <navigationItem key="navigationItem" title="ReCreate" id="972-4t-HLJ"/>
                     <connections>
                         <outlet property="reCreate" destination="uAV-E9-sLe" id="Ngf-Qk-nKV"/>
+                        <outlet property="reCreateQF" destination="WFM-4l-Xba" id="Ieq-Qv-xc3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IG5-7o-75H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -769,13 +781,6 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4y-Pq-9bS">
-                                <rect key="frame" x="151" y="348" width="112" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="htU-3b-ZPp">
                                 <rect key="frame" x="54" y="377" width="305" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -788,6 +793,15 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ugx-3B-qBe">
+                                <rect key="frame" x="139" y="348" width="136" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="QUICK FACTS!"/>
+                                <connections>
+                                    <action selector="dorsuQFButton:" destination="SbG-8z-afM" eventType="touchUpInside" id="15X-co-KfS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xuo-9h-ekZ"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -795,6 +809,7 @@ Zaful</string>
                     <navigationItem key="navigationItem" title="Dorsu" id="WVs-9I-m6c"/>
                     <connections>
                         <outlet property="dorsuLink" destination="VVB-EO-15u" id="BtW-yt-3bn"/>
+                        <outlet property="dorsuQF" destination="htU-3b-ZPp" id="vaO-rL-jVy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7FJ-3z-aoo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -858,13 +873,6 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brQ-Pb-aKE">
-                                <rect key="frame" x="151" y="348" width="112" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Woi-Q5-gfp">
                                 <rect key="frame" x="55" y="377" width="305" height="274"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -877,6 +885,15 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uN-eV-G7d">
+                                <rect key="frame" x="139" y="348" width="136" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="QUICK FACTS!"/>
+                                <connections>
+                                    <action selector="nisaQFButton:" destination="huU-Gl-QOL" eventType="touchUpInside" id="pd7-jw-L07"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HyC-Cx-DWp"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -884,6 +901,7 @@ Zaful</string>
                     <navigationItem key="navigationItem" title="Nisa" id="mnL-Nq-EVD"/>
                     <connections>
                         <outlet property="nisaLink" destination="yDg-Sp-dzc" id="j0I-jO-Ezq"/>
+                        <outlet property="nisaQF" destination="Woi-Q5-gfp" id="SmZ-kB-wiT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fug-W6-kbp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

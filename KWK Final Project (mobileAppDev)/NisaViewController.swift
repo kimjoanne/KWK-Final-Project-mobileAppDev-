@@ -11,10 +11,16 @@ class NisaViewController: UIViewController {
     
     @IBOutlet weak var nisaLink: UITextView!
     
-
+    @IBOutlet weak var nisaQF: UITextView!
+    
+    @IBAction func nisaQFButton(_ sender: UIButton) {
+        nisaQF.isHidden = false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateTextView()
+        nisaQF.isHidden = true
         
         func updateTextView() {
             let path = "https://nisa.co.nz/"
