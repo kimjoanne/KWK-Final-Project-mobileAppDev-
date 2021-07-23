@@ -64,15 +64,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ox2-Bs-1gF">
-                                <rect key="frame" x="77" y="362" width="261" height="172"/>
+                                <rect key="frame" x="77" y="362" width="261" height="303"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">WATR is a tool to help you discover the harmful impacts of fast fashion on the environment. We also provide alternative resources to help you incorporate sustainable fashion into your life.</string>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="about WATR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Zw-OH-c2K">
-                                <rect key="frame" x="127" y="263" width="160" height="36"/>
+                                <rect key="frame" x="127" y="190" width="160" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -98,18 +98,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQZ-Hv-EXe">
-                                <rect key="frame" x="171" y="230" width="73" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Va5-lC-gJf">
                                 <rect key="frame" x="140" y="400" width="135" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="brands to avoid"/>
+                                <state key="normal" title="brands to avoid">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="pAN-TQ-5eU" kind="show" id="Cxa-xU-CyN"/>
                                 </connections>
@@ -118,7 +113,9 @@
                                 <rect key="frame" x="148" y="475" width="119" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="better brands"/>
+                                <state key="normal" title="better brands">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="uDd-FB-yZh" kind="show" id="jjQ-US-EUp"/>
                                 </connections>
@@ -127,7 +124,9 @@
                                 <rect key="frame" x="158" y="529" width="98" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="research"/>
+                                <state key="normal" title="research">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="C6G-iw-kvV" kind="show" id="KoC-1I-4M0"/>
                                 </connections>
@@ -136,7 +135,9 @@
                                 <rect key="frame" x="118" y="629" width="179" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="meet the developers"/>
+                                <state key="normal" title="meet the developers">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="7PC-Qg-phV" kind="show" id="7m4-XL-uLC"/>
                                 </connections>
@@ -145,7 +146,9 @@
                                 <rect key="frame" x="153" y="318" width="109" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="about WATR"/>
+                                <state key="normal" title="about WATR">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="Reg-4d-NzU" kind="show" id="9Vo-Zk-lDg"/>
                                 </connections>
@@ -154,6 +157,13 @@
                                 <rect key="frame" x="154" y="88" width="106" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQZ-Hv-EXe">
+                                <rect key="frame" x="171" y="190" width="73" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3XZ-zu-Prl"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -175,13 +185,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="brands to avoid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUa-eb-2S0">
-                                <rect key="frame" x="108" y="203" width="198" height="36"/>
+                                <rect key="frame" x="108" y="190" width="198" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haX-Vk-IrQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haX-Vk-IrQ">
                                 <rect key="frame" x="83" y="300" width="248" height="296"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Boohoo
@@ -198,7 +208,7 @@ Zaful</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click here to search a directory which rates brands' sustainability." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J45-JU-5ZM">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Click here to search a directory which rates brands' sustainability." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J45-JU-5ZM">
                                 <rect key="frame" x="54" y="645" width="307" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -209,6 +219,13 @@ Zaful</string>
                                 <rect key="frame" x="154" y="88" width="106" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="here's a list of a few brands that we recommend you avoid:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="273-jq-fLD">
+                                <rect key="frame" x="87" y="234" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rez-3n-fm3"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -232,18 +249,13 @@ Zaful</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="better brands" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkH-8l-XTT">
-                                <rect key="frame" x="121" y="177" width="173" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TeX-0b-NZn">
                                 <rect key="frame" x="165" y="342" width="85" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="CHNGE"/>
+                                <state key="normal" title="CHNGE">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="vks-7O-1rg" kind="show" id="5aH-Gi-QiW"/>
                                 </connections>
@@ -252,7 +264,9 @@ Zaful</string>
                                 <rect key="frame" x="136" y="392" width="143" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Armedangels"/>
+                                <state key="normal" title="Armedangels">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="aza-Dd-xTF" kind="show" id="nil-sm-4hH"/>
                                 </connections>
@@ -261,7 +275,9 @@ Zaful</string>
                                 <rect key="frame" x="120" y="442" width="175" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="The R Collective"/>
+                                <state key="normal" title="The R Collective">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="zXs-hb-SfK" kind="show" id="QjY-Pe-CM9"/>
                                 </connections>
@@ -270,7 +286,9 @@ Zaful</string>
                                 <rect key="frame" x="157" y="492" width="100" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="ReCreate"/>
+                                <state key="normal" title="ReCreate">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="LYI-Rn-p2U" kind="show" id="V4p-FG-HX7"/>
                                 </connections>
@@ -279,7 +297,9 @@ Zaful</string>
                                 <rect key="frame" x="173" y="542" width="65" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Dorsu"/>
+                                <state key="normal" title="Dorsu">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="SbG-8z-afM" kind="show" id="GiA-fY-eRN"/>
                                 </connections>
@@ -288,7 +308,9 @@ Zaful</string>
                                 <rect key="frame" x="183" y="592" width="48" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Nisa"/>
+                                <state key="normal" title="Nisa">
+                                    <color key="titleColor" red="0.0" green="0.55800181630000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="huU-Gl-QOL" kind="show" id="rTh-tN-vSY"/>
                                 </connections>
@@ -313,6 +335,13 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="better brands" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkH-8l-XTT">
+                                <rect key="frame" x="121" y="190" width="173" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yNd-vN-WCl"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -369,20 +398,24 @@ Zaful</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="CHNGE is a fashion brand that uses 100% oragnic material while also making a statement for activism" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yaq-9b-IHk">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="CHNGE is a fashion brand that uses 100% oragnic material while also making a statement for activism" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yaq-9b-IHk">
                                 <rect key="frame" x="54" y="263" width="307" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="click here to check out CHNGE" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rlf-ks-1fC">
-                                <rect key="frame" x="87" y="761" width="240" height="102"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UYy-9L-Tke">
+                                <rect key="frame" x="54" y="377" width="307" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">- Global Organic Textile Standard (GOTS) certified
+- Rated "Great" on good on you
+- Over 98% of fabric dyeing water is recycled
+- spreads awareness about civil rights and social issues
+- 22 organizations that they support through donations</string>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ool-Hq-hWS">
                                 <rect key="frame" x="151" y="348" width="112" height="21"/>
@@ -391,17 +424,13 @@ Zaful</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UYy-9L-Tke">
-                                <rect key="frame" x="54" y="377" width="307" height="230"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="click here to check out CHNGE" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rlf-ks-1fC">
+                                <rect key="frame" x="89" y="760" width="236" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">- Global Organic Textile Standard (GOTS) certified
-- Rated "Great" on good for you
-- Over 98% of fabric dyeing water is recycled
-- spreads awareness about civil rights and social issues
-- 22 organizations that they support through donations</string>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZmV-Ua-HSB"/>
@@ -430,12 +459,8 @@ Zaful</string>
                                 <rect key="frame" x="154" y="88" width="106" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arm1*" translatesAutoresizingMaskIntoConstraints="NO" id="22h-RA-LfE">
-                                <rect key="frame" x="87" y="441" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arm2*" translatesAutoresizingMaskIntoConstraints="NO" id="9GZ-w6-gx5">
-                                <rect key="frame" x="87" y="633" width="240" height="128"/>
+                                <rect key="frame" x="154" y="633" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="in comparison to Forever 21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s25-3W-eZ6">
@@ -459,22 +484,44 @@ Zaful</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Armedangels has been producing sustainable and fair fashion for over 13 years" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ddU-T3-Heb">
-                                <rect key="frame" x="87" y="263" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="click here to check out Armedangels" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g06-LZ-JgE">
-                                <rect key="frame" x="87" y="769" width="240" height="128"/>
+                                <rect key="frame" x="88" y="760" width="239" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Armedangels has been producing sustainable and fair fashion for over 13 years" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Iu6-yp-rEe">
+                                <rect key="frame" x="54" y="263" width="307" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssG-II-JP4">
+                                <rect key="frame" x="151" y="348" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Y3v-ZE-WpZ">
+                                <rect key="frame" x="54" y="377" width="307" height="231"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">- Global Organic Textile Standard (GOTS) cotton matterials
+- Rated "Great" on good on you
+- Uses renewable energy in its operations
+- member of the fair wear foundation
+- eco friendly materials used to limit chemical and water usage</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arm1*" translatesAutoresizingMaskIntoConstraints="NO" id="22h-RA-LfE">
+                                <rect key="frame" x="20" y="633" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uXb-TW-ykm"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -486,7 +533,7 @@ Zaful</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OUg-oz-tuC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2959" y="813"/>
+            <point key="canvasLocation" x="2957.971014492754" y="812.94642857142856"/>
         </scene>
         <!--The R Collective-->
         <scene sceneID="qNz-HS-PY7">
@@ -497,7 +544,7 @@ Zaful</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="click here to check out The R Collective" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bbT-CW-Lls">
-                                <rect key="frame" x="87" y="308" width="240" height="128"/>
+                                <rect key="frame" x="87" y="760" width="241" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -509,34 +556,60 @@ Zaful</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thercollective1*" translatesAutoresizingMaskIntoConstraints="NO" id="Gpr-bP-9UG">
-                                <rect key="frame" x="87" y="444" width="240" height="128"/>
+                                <rect key="frame" x="20" y="624" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thercollective2*" translatesAutoresizingMaskIntoConstraints="NO" id="SXE-Yc-qv3">
-                                <rect key="frame" x="87" y="636" width="240" height="128"/>
+                                <rect key="frame" x="154" y="624" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="in comparison to boohoo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqe-c1-UEB">
-                                <rect key="frame" x="116" y="190" width="189" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="is a better alternative" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBi-ep-aXx">
-                                <rect key="frame" x="127" y="263" width="160" height="21"/>
+                                <rect key="frame" x="113" y="161" width="189" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The R Collective" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYo-rv-aMQ">
-                                <rect key="frame" x="102" y="219" width="210" height="36"/>
+                                <rect key="frame" x="102" y="190" width="210" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="is a better alternative" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBi-ep-aXx">
+                                <rect key="frame" x="127" y="234" width="160" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="The R Collective makes women's clothing with rescued materials from name brands and reputable manufacturers. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7kS-V3-MIF">
+                                <rect key="frame" x="54" y="263" width="307" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXr-vX-JyN">
+                                <rect key="frame" x="151" y="348" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xvn-lb-6ZB">
+                                <rect key="frame" x="56" y="377" width="305" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">- resuses rescued unwated excess materials from leading luxry brands to produce their clothing
+- Rated "Great" on good on you
+- Works with SGS and their "Upcycling Verification Program"
+- Hydroplast biodegradable bags are used in the shipping process
+- transparency and production information on website</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jDb-Wa-Dc6"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -548,7 +621,7 @@ Zaful</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LDn-p5-cGs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3638" y="813"/>
+            <point key="canvasLocation" x="3637.68115942029" y="812.94642857142856"/>
         </scene>
         <!--ReCreate-->
         <scene sceneID="LSA-ai-aIy">
@@ -559,7 +632,7 @@ Zaful</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="click here to check out ReCreate" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uAV-E9-sLe">
-                                <rect key="frame" x="87" y="326" width="240" height="128"/>
+                                <rect key="frame" x="87" y="760" width="247" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -572,34 +645,60 @@ Zaful</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recreate1*" translatesAutoresizingMaskIntoConstraints="NO" id="Il8-XY-nr2">
-                                <rect key="frame" x="87" y="450" width="240" height="128"/>
+                                <rect key="frame" x="20" y="624" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recreate2*" translatesAutoresizingMaskIntoConstraints="NO" id="ZjU-9h-Wl6">
-                                <rect key="frame" x="87" y="642" width="240" height="128"/>
+                                <rect key="frame" x="154" y="624" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="in comparison to nasty gal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K02-OT-q5I">
-                                <rect key="frame" x="105" y="190" width="200" height="21"/>
+                                <rect key="frame" x="107" y="161" width="200" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ReCreate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgj-wU-SQi">
-                                <rect key="frame" x="147" y="219" width="120" height="36"/>
+                                <rect key="frame" x="147" y="190" width="120" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="is a better alternative" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BoX-NZ-jSY">
-                                <rect key="frame" x="127" y="263" width="160" height="21"/>
+                                <rect key="frame" x="127" y="234" width="160" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="ReCreate makes boutique streetwear though fair employment, training and empowerment" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gE3-zx-ImS">
+                                <rect key="frame" x="54" y="263" width="307" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqN-5w-Ncl">
+                                <rect key="frame" x="151" y="348" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WFM-4l-Xba">
+                                <rect key="frame" x="54" y="377" width="305" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">- Global Organic Textile Standard (GOTS) cotton materials
+- Rated "Great" on good on you
+- Uses plastic free packaging
+- Provides jobs for workers in disadvantaged communities in Cambodia
+- Provides information about the makers of the clothing on their website</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IBQ-Bw-sqe"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -611,7 +710,7 @@ Zaful</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IG5-7o-75H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4326" y="813"/>
+            <point key="canvasLocation" x="4324.6376811594209" y="812.94642857142856"/>
         </scene>
         <!--Dorsu-->
         <scene sceneID="b6L-ZQ-RN1">
@@ -622,7 +721,7 @@ Zaful</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="click here to check out Dorsu" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VVB-EO-15u">
-                                <rect key="frame" x="87" y="315" width="240" height="128"/>
+                                <rect key="frame" x="87" y="760" width="240" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -634,35 +733,61 @@ Zaful</string>
                                 <rect key="frame" x="154" y="88" width="106" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dorsu1*" translatesAutoresizingMaskIntoConstraints="NO" id="Ici-oN-8lj">
-                                <rect key="frame" x="87" y="451" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dorsu1 cropped" translatesAutoresizingMaskIntoConstraints="NO" id="Ici-oN-8lj">
+                                <rect key="frame" x="20" y="641" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dorsu2*" translatesAutoresizingMaskIntoConstraints="NO" id="uOZ-mK-suo">
-                                <rect key="frame" x="87" y="635" width="240" height="128"/>
+                                <rect key="frame" x="154" y="641" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="in comparison to Zara" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsD-KW-Jhb">
-                                <rect key="frame" x="124" y="190" width="166" height="21"/>
+                                <rect key="frame" x="124" y="161" width="166" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dorsu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pud-mn-0Fs">
-                                <rect key="frame" x="168" y="219" width="78" height="36"/>
+                                <rect key="frame" x="168" y="190" width="78" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="is a better alternative" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxs-ZI-7Pk">
-                                <rect key="frame" x="127" y="263" width="160" height="21"/>
+                                <rect key="frame" x="127" y="234" width="160" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Dorsu is a clothing brand with a seasonless capsule giving fashion consumers freedom to be themselves" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cvE-sO-nZX">
+                                <rect key="frame" x="54" y="263" width="307" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4y-Pq-9bS">
+                                <rect key="frame" x="151" y="348" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="htU-3b-ZPp">
+                                <rect key="frame" x="54" y="377" width="305" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">- Global Organic Textile Standard (GOTS) cotton materials
+- Rated "Great" on good on you
+- Uses deadstock materials
+- Has a mission to improve social conditions in Cambodia
+- In connection with ReCreate</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xuo-9h-ekZ"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -674,7 +799,7 @@ Zaful</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7FJ-3z-aoo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4994" y="813"/>
+            <point key="canvasLocation" x="4992.753623188406" y="812.94642857142856"/>
         </scene>
         <!--Nisa-->
         <scene sceneID="Ihk-it-fbh">
@@ -685,7 +810,7 @@ Zaful</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="click here to check out Nisa" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yDg-Sp-dzc">
-                                <rect key="frame" x="95" y="313" width="240" height="128"/>
+                                <rect key="frame" x="87" y="760" width="240" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -697,35 +822,61 @@ Zaful</string>
                                 <rect key="frame" x="154" y="88" width="106" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nisa1*" translatesAutoresizingMaskIntoConstraints="NO" id="Cod-Td-im8">
-                                <rect key="frame" x="95" y="449" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nisa1 cropped" translatesAutoresizingMaskIntoConstraints="NO" id="Cod-Td-im8">
+                                <rect key="frame" x="20" y="624" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nisa2*" translatesAutoresizingMaskIntoConstraints="NO" id="Q8a-0E-2We">
-                                <rect key="frame" x="95" y="644" width="240" height="128"/>
+                                <rect key="frame" x="154" y="624" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="in comparison to Victoria's Secret" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="991-jW-xGa">
-                                <rect key="frame" x="79" y="190" width="256" height="21"/>
+                                <rect key="frame" x="79" y="161" width="256" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nisa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlS-Zq-Rbf">
-                                <rect key="frame" x="178" y="219" width="58" height="36"/>
+                                <rect key="frame" x="178" y="190" width="58" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="is a better alternative" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ibu-hn-Gkr">
-                                <rect key="frame" x="127" y="263" width="160" height="21"/>
+                                <rect key="frame" x="127" y="234" width="160" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Nisa is an underwear label that employs and uplifts women from refugee backgrounds" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d4E-U2-IX8">
+                                <rect key="frame" x="54" y="263" width="307" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUICK FACTS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brQ-Pb-aKE">
+                                <rect key="frame" x="151" y="348" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Woi-Q5-gfp">
+                                <rect key="frame" x="55" y="377" width="305" height="274"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">- Global Organic Textile Standard (GOTS) cotton materials
+- Rated "Great" on good on you
+- A garmet perchase helps with employment opportunities for refugee women
+- Minimal paper packaging made from recycled materials that can be recycled or composted
+- Swimwear material made from fishing nets and other waste products</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HyC-Cx-DWp"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -737,7 +888,7 @@ Zaful</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fug-W6-kbp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5680" y="813"/>
+            <point key="canvasLocation" x="5679.7101449275369" y="812.94642857142856"/>
         </scene>
         <!--Research-->
         <scene sceneID="t9d-ru-WTb">
@@ -769,13 +920,6 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="research" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGx-aB-NrV">
-                                <rect key="frame" x="151" y="190" width="112" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watr" translatesAutoresizingMaskIntoConstraints="NO" id="E45-9C-mKk">
                                 <rect key="frame" x="154" y="88" width="106" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -794,6 +938,13 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="research" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGx-aB-NrV">
+                                <rect key="frame" x="151" y="190" width="112" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jba-M6-5tg"/>
                         <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -873,7 +1024,7 @@ Zaful</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aSy-WM-osT">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aSy-WM-osT">
                                 <rect key="frame" x="182" y="247" width="186" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93161517380000003" green="0.95840507750000004" blue="0.99869042630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -918,11 +1069,11 @@ Zaful</string>
         <image name="arm2*" width="356" height="512"/>
         <image name="chnge1*" width="946" height="1398"/>
         <image name="chnge2*" width="946" height="1398"/>
-        <image name="dorsu1*" width="1600" height="889"/>
+        <image name="dorsu1 cropped" width="956" height="821"/>
         <image name="dorsu2*" width="1200" height="1200"/>
         <image name="emilykwk" width="1044" height="1566"/>
         <image name="joannekwk" width="804" height="976"/>
-        <image name="nisa1*" width="544" height="544"/>
+        <image name="nisa1 cropped" width="371" height="512"/>
         <image name="nisa2*" width="341" height="512"/>
         <image name="nityakwk" width="335" height="462"/>
         <image name="recreate1*" width="342" height="512"/>
@@ -933,9 +1084,6 @@ Zaful</string>
         <image name="watr" width="1600" height="1600"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
